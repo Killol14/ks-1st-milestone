@@ -8,7 +8,7 @@ body {
   }
   
   p {
-    color: #8f8f8f;
+    color: #2b3d36;
   }
   
   /* Headings */
@@ -33,7 +33,7 @@ body {
   /* Sections */
   
   .colored-section {
-    background-color: #c0bebf;
+    background-color: #346981;
     color: #fff;
   }
   
@@ -71,7 +71,7 @@ body {
   /* Title Section */
   
   #title {
-    background-color: #c0bebf;
+    background-color: hwb(172 24% 59%);
     color: #fff;
     text-align: left;
   }
@@ -104,18 +104,18 @@ body {
   }
   
   .icon {
-    color: #c0bebf;
+    color: #3b5f6d;
     margin-bottom: 1rem;
   }
   
   .icon:hover {
-    color: #c0bebf;
+    color: #36889c;
   }
   
   /* Testimonial Section */
   
   #testimonials {
-    background-color: #c0bebf;
+    background-color: #478385;
   }
   
   .testimonial-text {
@@ -131,7 +131,7 @@ body {
   
   
   #press {
-    background-color: #ef8172;
+    background-color: #2c3b49;
     padding-bottom: 3%;
   }
   
