@@ -1,12 +1,16 @@
 
-<style> @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100,200,300,400,500,600,700&display=swap'); </style>
-<style>@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@1,100,200,300,400,500,600,700&display=swap');</style>
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100,200,300,400,500,600,700&display=swap'); 
+ @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@1,100,200,300,400,500,600,700&display=swap'); 
 
 body {
     font-family: "Montserrat";
     text-align: center;
   }
-  h1{
+  
+  .container-fluid{
+    padding: 3% 15% 7%;
+  }
+  h1 {
     font-family: "Montserrat-Black";
     line-height: 1.5;
     font-size: 3.5rem;
@@ -83,39 +87,44 @@ body {
   .download-button {
     margin: 5% 3% 5% 0;
   }
+
  .sign {
   background-color: rgb(255, 238, 0);
-  z-index: 100;
   background-size: cover;
   color: rgb(255, 0, 21);
   font-weight: 900;
+  position: relative;
+  left: 57%;
+  top: 50px;
  }
  .sign:hover{
   color:aquamarine;
  }
+
   /* Title Section */
   
   #title {
     background-color: hwb(172 24% 59%);
     color: #fff;
-    text-align: left;
+   
   }
   
   #title .container-fluid {
     padding: 3% 15% 7%;
   }
-  
-  /* Title Image */
-  
-  .title-image { 
-    position: relative;
-    
-    }
 
+  /* Title Image */
+ .title-image{
+  position: relative;
+  width: 60%;
+  left: 100%;
+  bottom: 200px;
+ }
   /* Features Section */
   
   #features {
-    position: relative;
+    padding: 7% 15%;
+    background-color: #fff;
   }
   
   .feature-title {
