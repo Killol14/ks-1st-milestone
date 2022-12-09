@@ -6,19 +6,17 @@ body {
     font-family: "Montserrat";
     text-align: center;
      }
- 
-  .container-fluid{
-    padding: 3% 15% 7%;
-  }
+
   h1, h2, h3, h4, h5, h6 {
     font-family:"Montserrat-Bold";
-    font-size: 3rem;
-    line-height: 1.2;
+   
   }
   
   p {
-    color: rgb(63, 55, 55);
+    color:rgb(59, 73, 85);
   }
+
+  
   
   /* Headings */
   
@@ -37,41 +35,43 @@ body {
   
   .container-fluid{
     padding: 7% 15%;
-    position: relative;
-    background-color: #343c44;
-   
+    
   }
   
   /* Sections */
   
   .colored-section {
-    background-color: #346981;
-    color: #fff;
+    background-color: #34c2c2;
+    color: rgb(87, 60, 60);
   }
   
   .white-section {
     background-color: #fff;
+    padding-top: 10px;
   }
   
   /* Navigation Bar */
   
   .navbar {
-    padding: 0 0 4.5rem;
+    padding: 0 0 2.5rem;
   }
   
   .navbar-brand {
     font-family: "Ubuntu";
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     font-weight: bold;
+    color: orange;
+    padding-right: auto;
   }
   
   .nav-item {
-    padding: 0 18px;
+    padding: 0 20px;
   }
   
   .nav-link {
     font-size: 1.2rem;
     font-family: "Montserrat-Light";
+  
   }
   
   /* Buttons */
@@ -86,8 +86,7 @@ body {
   color: rgb(255, 0, 21);
   font-weight: 900;
   position: relative;
-  left: 57%;
-  top: 50px;
+
  }
  .sign:hover{
   color:aquamarine;
@@ -99,25 +98,25 @@ body {
     background-color: hwb(172 24% 59%);
     color: #fff;
     text-align: left;
-   
+
   }
-  
+  .title-image {
+    width: 60%;
+    position: absolute;
+    right: 30%;
+    bottom: 30%;
+    
+  }
   #title .container-fluid {
-    padding: 3% 15% 7%;
+    padding: 3% 7% 15%;
+
   }
 
-  /* Title Image */
- .title-image{
-  position: relative;
-  width: 60%;
-  left: 100%;
-  bottom: 200px;
- }
+
   /* Features Section */
   
   #features {
-    padding: s 7% 15%;
-    background-color: #fff;
+    background-color: whitesmoke;
     position: relative;
   }
   
@@ -142,8 +141,8 @@ body {
   
   #testimonials {
     background-color: #478385;
-    padding: 7% 15%;
-    color:#fff;
+
+  
   }
   
   .testimonial-text {
@@ -152,24 +151,20 @@ body {
   }
   
   .testimonial-image {
-    width: 15%;
+    width: 10%;
     border-radius: 100%;
     margin: 20px;
   }
-  .carousel-item{
-    padding: 7% 15%;
-  }
-  
   
   #press {
-    background-color: #fff;
+    background-color:aliceblue;
     padding-bottom: 3%;
    
   
   }
   
   .press-logo {
-    width: 25%;
+    width: 15%;
     margin: 20px 20px 60px;
   }
   
@@ -189,21 +184,10 @@ body {
   .pricing-column {
     padding: 3% 2%;
   }
-  
-  /* CTA Section */
-    #cta {
-      background-color: #343c44;
-      color: aliceblue;
-      padding: 7% 15%;
-      
-    }
-    
+   
   /* Footer Section */
   
-    
-  
-  
-  .social-icon {
+   .social-icon {
     margin: 20px 10px;
   }
 
@@ -212,14 +196,5 @@ body {
     #title {
       text-align: center;
     }
-
-    .title-image {
-      position: static;
-    }
-    .sign {
-      position: sticky;
-    }
-    .container-fluid {
-      position: static;
-    }
+    
   }
