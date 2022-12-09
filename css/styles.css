@@ -89,12 +89,7 @@ body {
   color: rgb(255, 0, 21);
   font-weight: 900;
   position: relative;
-
  }
- .sign:hover{
-  color:aquamarine;
- }
-
   /* Title Section */
   
   #title {
