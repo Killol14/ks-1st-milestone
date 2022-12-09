@@ -1,13 +1,14 @@
 
- @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100,200,300,400,500,600,700&display=swap'); 
- 
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100,200,300,400,500,600,700,800,900'); 
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,600&family=Ubuntu:wght@1,100,200,300,400,500,600,700,800,900');
+
 body {
-    font-family: "Montserrat";
+    font-family: "Ubuntu";
     text-align: center;
      }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family:"Montserrat-Bold";
+    font-family:"Montserrat-bold";
    
   }
   
@@ -103,7 +104,7 @@ body {
     position: absolute;
     right: 30%;
     bottom: 30%;
-    
+
   }
   #title .container-fluid {
     padding: 3% 7% 15%;
