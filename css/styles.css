@@ -24,6 +24,7 @@ body {
     font-family: "Montserrat-Black";
     font-size: 3.5rem;
     line-height: 1.5;
+    margin-left: 30px;
   }
   
   .section-heading {
@@ -34,15 +35,15 @@ body {
   /* Containers */
   
   .container-fluid{
-    padding: 7% 15%;
+    padding: 3% 15%;
     
   }
   
   /* Sections */
   
   .colored-section {
-    background-color: #34c2c2;
-    color: rgb(87, 60, 60);
+    background-color: #3c7272;
+    color: rgb(159, 177, 56);
   }
   
   .white-section {
@@ -53,7 +54,7 @@ body {
   /* Navigation Bar */
   
   .navbar {
-    padding: 0 0 2.5rem;
+    padding: 0 ;
   }
   
   .navbar-brand {
@@ -61,16 +62,19 @@ body {
     font-size: 3.5rem;
     font-weight: bold;
     color: orange;
-    padding-right: auto;
+    
+   
   }
   
   .nav-item {
-    padding: 0 20px;
+    padding: 0 10px;
+   
   }
   
   .nav-link {
     font-size: 1.2rem;
     font-family: "Montserrat-Light";
+    color: azure;
   
   }
   
@@ -95,7 +99,7 @@ body {
   /* Title Section */
   
   #title {
-    background-color: hwb(172 24% 59%);
+    background-color: hwb(173 22% 71%);
     color: #fff;
     text-align: left;
 
@@ -140,7 +144,7 @@ body {
   /* Testimonial Section */
   
   #testimonials {
-    background-color: #478385;
+    background-color: #3c6a6b;
 
   
   }
@@ -196,5 +200,7 @@ body {
     #title {
       text-align: center;
     }
-    
+    .title-image {
+      position: static;
+    }
   }
