@@ -49,21 +49,19 @@ body {
   .white-section {
     background-color: #fff;
     padding-top: 10px;
+  
   }
   
   /* Navigation Bar */
-  
   .navbar {
-    padding: 0 ;
+    padding: 0;
   }
-  
   .navbar-brand {
     font-family: "Ubuntu";
     font-size: 3.5rem;
     font-weight: bold;
     color: orange;
-    
-   
+  
   }
   
   .nav-item {
@@ -108,9 +106,7 @@ body {
   }
   #title .container-fluid {
     padding: 3% 7% 15%;
-
-  }
-
+ }
 
   /* Features Section */
   
@@ -189,7 +185,10 @@ body {
    .social-icon {
     margin: 20px 10px;
   }
-   
+  .contact{
+    margin-bottom: 10px;
+}
+
   @media (max-width: 1028px) {
     
     #title {
