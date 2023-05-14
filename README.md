@@ -9,7 +9,7 @@
 (https://killol14.github.io/ks-1st-milestone/)
 
 ## Repository 
-
+https://github.com/Killol14/ks-1st-milestone
 
 # Table of contents
 
