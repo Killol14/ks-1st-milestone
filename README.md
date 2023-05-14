@@ -6,10 +6,10 @@
 * This is my first milestone project 1 submission for code institute's diploma in web application development course. This website is 4 pages with active now buttons, using HTML, CSS, and Bootstrap (Java script) 
 
 ## Live Project
-<!-- Link to Add -->
+(https://killol14.github.io/ks-1st-milestone/)
 
 ## Repository 
-(Need to add) 
+
 
 # Table of contents
 
